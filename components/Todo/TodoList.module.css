@@ -1,0 +1,21 @@
+.list {
+  margin-top: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.item+.item {
+  margin-top: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #999;
+}

@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #2563eb;
+  /* 青 */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1e40af;
+}
