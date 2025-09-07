@@ -16,3 +16,12 @@
   margin-top: 8px;
 }
 
+.button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  border: white;
+  background-color: #0070f3;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}

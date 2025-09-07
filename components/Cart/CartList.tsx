@@ -24,12 +24,11 @@ export default function CartList({ items, onAdd, onRemove }: Props) {
             {item.name} (${item.price}) x {item.quantity}
           </span>
           <span>
-            <button onClick={() => onAdd(item.id)}>＋</button>
-            <button onClick={() => onRemove(item.id)}>－</button>
+            <button className={styles.button} onClick={() => onAdd(item.id)}>+</button>
+            <button className={styles.button} onClick={() => onRemove(item.id)}>-</button>
           </span>
         </li>
       ))}
     </ul>
   );
 }
-
